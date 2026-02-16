@@ -1,6 +1,7 @@
 def subtract(a, b):
     return a - b
-
+def mult(a ,b):
+    return a*b
 
 def main():
     print("Subtraction Program")
@@ -10,8 +11,8 @@ def main():
     num2 = float(input("Enter second number: "))
     
     result = subtract(num1, num2)
-    
-    print("Result:", result)
+    result2 = mult(a , b)
+    print("Result:", result, result2)
 
 
 if __name__ == "__main__":
